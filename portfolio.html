@@ -14,11 +14,14 @@
 
 <div class="container">
 
-  <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+  <nav class="navbar navbar-custom navbar-expand-sm sticky-top navbar-light" style="margin-bottom: 1.2em">
     <a class="navbar-brand" href = "index.html">Home</a>
     <a class="navbar-brand" href = "about.html">About</a>
     <a class="navbar-brand" href = "portfolio.html">Portfolio</a>
     <a class="navbar-brand" href = "qualifications.html">Qualifications</a>
+    <div class="CSSButton">
+      <button type="button" onclick="changeCSS()">Toggle Stlye</button>
+    </div>
   </nav>
 
   <div class="jumbotron">
@@ -31,40 +34,40 @@
   <div class="row">
     <div class="col-lg-4">
       <img class="rounded-circle" src="img/yemen.jpg" alt="Generic placeholder image" width="140" height="140">
-      <h2>Yemen Crisis Webpage</h2>
-      <p>The website is a static webpage that offers the user information regarding the crisis and recent news on it. It also offers links that users can navigate to in order to help in way of donations or signing petitions.</p>
+      <h2 class = "featurette-heading">Yemen Crisis Webpage</h2>
+      <p class = "lead">The website is a static webpage that offers the user information regarding the crisis and recent news on it. It also offers links that users can navigate to in order to help in way of donations or signing petitions.</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="rounded-circle" src="img/cpu.jpg" alt="Generic placeholder image" width="140" height="140">
-      <h2>Verilog Processor</h2>
-      <p>Created a basic CPU using Verilog for one of my classes. I gained insight on the internal structure of modern computers and systems while also becoming more comfortable with Verilog and assembly language.</p>
+      <img class="rounded-circle" src="img/cpu.png" alt="Generic placeholder image" width="140" height="140">
+      <h2 class = "featurette-heading">Verilog Processor</h2>
+      <p class = "lead">Created a basic CPU using Verilog for one of my classes. I gained insight on the internal structure of modern computers and systems while also becoming more comfortable with Verilog and assembly language.</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
-      <img class="rounded-circle" src="img/linkedin.png" alt="travelsight" width="140" height="140">
-      <h2>Travel Sight</h2>
-      <p>Two classmates and I created a webpage that displays relevant information about the user's travel destination.</p>
+      <img class="rounded-circle" src="img/airplane.png" alt="travelsight" width="140" height="140">
+      <h2 class = "featurette-heading">Travel Sight</h2>
+      <p class = "lead">Two classmates and I created a webpage that displays relevant information about the user's travel destination.</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
     </div><!-- /.col-lg-4 -->
   </div>
   <div class="row justify-content-evenly">
     <div class="col-4">
-      <img class="rounded-circle" src="img/website.jpg" alt="website" width="140" height="140">
-      <h2>Personal Website</h2>
-      <p>This webpage that you are looking at right now :)</p>
+      <img class="rounded-circle" src="img/website.png" alt="website" width="140" height="140">
+      <h2 class = "featurette-heading">Personal Website</h2>
+      <p class = "lead">This webpage that you are looking at right now :)</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-4">
       <img class="rounded-circle" src="img/spotify.png" alt="spotify" width="140" height="140">
-      <h2>Spotif-I</h2>
-      <p>A command line app that uses the Spotify API to show how your taste in music has evolved over time.</p>
+      <h2 class = "featurette-heading">Spotif-I</h2>
+      <p class = "lead">A command line app that uses the Spotify API to show how your taste in music has evolved over time.</p>
       <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
     </div><!-- /.col-lg-4 -->
   </div>
     
   <div class = "row">
-    <div class="col-md-12 d-flex justify-content-center ">
+    <div class="col-md-12 d-flex justify-content-center " style="margin-top: 2.2em; margin-bottom: 1.2em;">
       <a href = "SamiResume.pdf" target = "_blank"><img class = "resumeIcon" src="img/resume.png" height = 60 style="margin-top: 1.2em"></a>
       <a href = "https://www.linkedin.com/in/sami-yusuf-8671811b1/" target = "_blank"><img class = "linkedInIcon" src="img/linkedin.png" height = 60 style="margin-top: 1.2em"></a>
       <a href = "https://github.com/samiyusuf1080" target = "_blank"><img class = "githubIcon" src="img/github.png" height = 50 style="margin-top: 1.35em"></a>
@@ -72,7 +75,7 @@
   </div>
 </div>
 
-
+<script src="function.js"></script>
 
 </body>
 </html>

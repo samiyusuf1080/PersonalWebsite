@@ -14,11 +14,14 @@
 
 <div class="container">
 
-  <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+  <nav class="navbar navbar-custom navbar-expand-sm sticky-top navbar-light" style="margin-bottom: 1.2em">
     <a class="navbar-brand" href = "index.html">Home</a>
     <a class="navbar-brand" href = "about.html">About</a>
     <a class="navbar-brand" href = "portfolio.html">Portfolio</a>
     <a class="navbar-brand" href = "qualifications.html">Qualifications</a>
+    <div class="CSSButton">
+      <button type="button" onclick="changeCSS()"><p class = "lead">Toggle Stlye</p></button>
+    </div>
   </nav>
 
   <div class="jumbotron">
@@ -27,9 +30,9 @@
     <p class="lead">This page contains information about my skills and interests within my field. It also contains my resume.  </p>
   </div>
 
-  <div class = "row featurette">
+  <div class = "row featurette" style="margin-bottom: 1.2em">
     <div class = "col-md-5 align-self-center">
-      <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="img/tamu.png" data-holder-rendered="true">
+      <img class="featurette-image img-fluid mx-auto" alt="500x500" style="width: 500px; height: 500px;" src="img/website.png" data-holder-rendered="true">
     </div>
     <div class = "col-md-7">
         <h2 class = "featurette-heading">Areas of Interest</h2>
@@ -41,29 +44,29 @@
       </div>
   </div>
 
-  <div class = "row">
+  <div class = "row" style="margin-bottom: 1.2em">
     <div class = "col-md-6">
         <h2 class = "featurette-heading">Technical Skills</h2>
         <hr class = "featurette-divider">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Python</li>
-            <li class="list-group-item">Java</li>
-            <li class="list-group-item">C++</li>
-            <li class="list-group-item">HTML/CSS/Javascript</li>
-            <li class="list-group-item">Git</li>
-            <li class="list-group-item">Agile methodology and Scrum processes</li>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-dark">Python</li>
+            <li class="list-group-item list-group-item-dark">Java</li>
+            <li class="list-group-item list-group-item-dark">C++</li>
+            <li class="list-group-item list-group-item-dark">HTML/CSS/Javascript</li>
+            <li class="list-group-item list-group-item-dark">Git</li>
+            <li class="list-group-item list-group-item-dark">Agile methodology and Scrum processes</li>
           </ul>
     </div>
     <div class = "col-md-6">
         <h2 class = "featurette-heading">Professional Skills</h2>
         <hr class = "featurette-divider">
         <ul class="list-group list-group-flush">
-            <li class="list-group-item">Leadership</li>
-            <li class="list-group-item">Teamwork</li>
-            <li class="list-group-item">Communication</li>
-            <li class="list-group-item">Hard-Working</li>
-            <li class="list-group-item">Understanding</li>
-            <li class="list-group-item">Professional</li>
+            <li class="list-group-item list-group-item-dark">Leadership</li>
+            <li class="list-group-item list-group-item-dark">Teamwork</li>
+            <li class="list-group-item list-group-item-dark">Communication</li>
+            <li class="list-group-item list-group-item-dark">Hard-Working</li>
+            <li class="list-group-item list-group-item-dark">Understanding</li>
+            <li class="list-group-item list-group-item-dark">Professional</li>
         </ul>
     </div>
   </div>
@@ -83,7 +86,7 @@
     </div>
 
 
-    <div class = "row">
+    <div class = "row" style="margin-top: 2.2em; margin-bottom: 1.2em;">
         <div class="col-md-12 d-flex justify-content-center ">
         <a href = "SamiResume.pdf" target = "_blank"><img class = "resumeIcon" src="img/resume.png" height = 60 style="margin-top: 1.2em"></a>
         <a href = "https://www.linkedin.com/in/sami-yusuf-8671811b1/" target = "_blank"><img class = "linkedInIcon" src="img/linkedin.png" height = 60 style="margin-top: 1.2em"></a>
@@ -92,7 +95,7 @@
     </div>
     </div>
 
-
+    <script src="function.js"></script>
 
 </body>
 </html>
