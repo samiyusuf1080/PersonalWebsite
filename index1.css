@@ -15,9 +15,20 @@
 
 /* Modify the background color */
 .navbar-custom {
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(201, 201, 201);
 }
 
 .navbar-custom .navbar-brand{
     color:rgb(0, 0, 0);
 }
+
+.display-1{
+    font-size: 120px;
+    color: rgb(0, 0, 0);
+}
+
+.display-2{
+    font-size: 40px;
+    color:rgb(94, 94, 94);
+    opacity: .7;
+  }
