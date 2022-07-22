@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(43, 43, 43);
+    
+}
+
+.display-1{
+    color: bisque;
+}
+
+.display-6{
+    color: beige;
+}
+
+.navigation{
+    background-color:aqua;
+    color: red;
+}
