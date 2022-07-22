@@ -9,7 +9,7 @@
     }
     
     .CSSButton button:hover {
-    background-color: rgb(34, 33, 33); /* Green */
+    background-color: rgb(34, 33, 33);
     color: rgb(194, 199, 199);
 }
 
@@ -31,4 +31,42 @@
     font-size: 40px;
     color:rgb(94, 94, 94);
     opacity: .7;
-  }
+}
+
+.display-3{
+    font-size: 20px;
+    color:rgb(94, 94, 94);
+    opacity: .7;
+}
+
+.mancityLink{
+    color:rgb(0, 0, 0);
+}
+
+.belgiumLink{
+    color:rgb(0, 0, 0);
+}
+
+.belgiumButton{
+    background-color: rgb(192, 192, 192);
+    margin-left: 10px;
+    border: none;
+    display: inline-block;
+}
+
+.belgiumButton button:hover {
+    background-color: rgb(212, 65, 65);
+    color: rgb(194, 199, 199);
+}
+
+.mancityButton{
+    background-color: rgb(192, 192, 192);
+    border: none;
+    display: inline-block;
+}
+
+.mancityButton button:hover {
+    background-color: rgb(71, 212, 223);
+    color: rgb(194, 199, 199);
+}
+
