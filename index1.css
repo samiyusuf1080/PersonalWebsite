@@ -6,9 +6,9 @@
     display: inline-block;
     padding: 10px;
     transition-duration: 0.4s;
-    }
+}
     
-    .CSSButton button:hover {
+.CSSButton button:hover {
     background-color: rgb(34, 33, 33);
     color: rgb(194, 199, 199);
 }
