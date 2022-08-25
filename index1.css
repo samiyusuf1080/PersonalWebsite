@@ -1,4 +1,72 @@
-.CSSButton button{
+body{
+    background-color: rgb(43, 43, 43);
+    
+}
+
+.display-1{
+    font-size: 120px;
+    color: beige;
+}
+
+.display-2{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+    opacity: .3;
+  }
+
+.display-3{
+    font-size: 20px;
+    color:rgb(158, 158, 158);
+    opacity: .7;
+}
+
+.featurette-heading{
+    color: beige;
+}
+
+.card-body{
+    background-color: rgb(116, 116, 116);
+}
+
+.card-text{
+    color:rgb(216, 216, 216);
+}
+
+.display-6{
+    color: beige;
+}
+
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: rgb(31, 31, 31);
+}
+
+.navbar-custom .navbar-brand{
+    color:azure;
+}
+
+nav a:hover  {
+    color: red;
+}
+
+.lead{
+    color:rgb(206, 206, 206);
+}
+
+.jumbotron{
+    background-color: rgb(118, 121, 124);
+}
+
+.list-group{
+    background-color: rgb(116, 116, 116);
+  }
+  
+  .list-group-item {
+    color:rgb(48, 48, 48);
+  }
+
+  .CSSButton button{
 
     border-radius: 12px;
     background-color: rgb(137, 139, 139);
@@ -6,67 +74,44 @@
     display: inline-block;
     padding: 10px;
     transition-duration: 0.4s;
-}
+    }
     
-.CSSButton button:hover {
-    background-color: rgb(34, 33, 33);
-    color: rgb(194, 199, 199);
-}
+    .CSSButton button:hover {
+    background-color: rgb(214, 214, 214); /* Green */
+    color: rgb(36, 36, 36);
+    }
 
-/* Modify the background color */
-.navbar-custom {
-    background-color: rgb(201, 201, 201);
-}
+    .mancityLink{
+        color:rgb(0, 0, 0);
+    }
+    
+    .belgiumLink{
+        color:rgb(0, 0, 0);
+    }
+    
+    .belgiumButton{
+        background-color: rgb(192, 192, 192);
+        margin-left: 10px;
+        border: none;
+        display: inline-block;
+    }
+    
+    .belgiumButton button:hover {
+        background-color: rgb(212, 65, 65);
+        color: rgb(194, 199, 199);
+    }
+    
+    .mancityButton{
+        background-color: rgb(192, 192, 192);
+        border: none;
+        display: inline-block;
+    }
+    
+    .mancityButton button:hover {
+        background-color: rgb(71, 212, 223);
+        color: rgb(194, 199, 199);
+    }
 
-.navbar-custom .navbar-brand{
-    color:rgb(0, 0, 0);
+.btn-secondary{
+    background-color:rgb(49, 126, 214);
 }
-
-.display-1{
-    font-size: 120px;
-    color: rgb(0, 0, 0);
-}
-
-.display-2{
-    font-size: 40px;
-    color:rgb(94, 94, 94);
-    opacity: .7;
-}
-
-.display-3{
-    font-size: 20px;
-    color:rgb(94, 94, 94);
-    opacity: .7;
-}
-
-.mancityLink{
-    color:rgb(0, 0, 0);
-}
-
-.belgiumLink{
-    color:rgb(0, 0, 0);
-}
-
-.belgiumButton{
-    background-color: rgb(192, 192, 192);
-    margin-left: 10px;
-    border: none;
-    display: inline-block;
-}
-
-.belgiumButton button:hover {
-    background-color: rgb(212, 65, 65);
-    color: rgb(194, 199, 199);
-}
-
-.mancityButton{
-    background-color: rgb(192, 192, 192);
-    border: none;
-    display: inline-block;
-}
-
-.mancityButton button:hover {
-    background-color: rgb(71, 212, 223);
-    color: rgb(194, 199, 199);
-}
-

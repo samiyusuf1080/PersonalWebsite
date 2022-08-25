@@ -4,10 +4,10 @@ function changeCSS()
     var CSSLink = defaultCSS.split("/")
     if(CSSLink.at(-1) == "index1.css")
     {
-        var newCSS = "index.css"
+        var newCSS = "index1.css"
         document.getElementById("CSS").href = newCSS;
     }
-    else if (CSSLink.at(-1) == "index.css"){
+    else if (CSSLink.at(-1) == "index1.css"){
         var newCSS = "index1.css"
         document.getElementById("CSS").href = newCSS;
     }
@@ -18,7 +18,7 @@ function setDefaultCSS()
 {
     var defaultCSS = localStorage.getItem("currCSS");
     if(!defaultCSS){
-        localStorage.setItem("currCSS", "index.css");
+        localStorage.setItem("currCSS", "index1.css");
     }
 }
 
